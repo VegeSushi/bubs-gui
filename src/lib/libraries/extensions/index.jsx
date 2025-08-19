@@ -317,5 +317,15 @@ export default [
             />
         ),
         helpLink: 'https://scratch.mit.edu/vernier'
+    },
+    {
+        name: 'HTTP',
+        extensionId: 'http',
+        featured: true
+    },
+    {
+        name: 'JSON',
+        extensionId: 'json',
+        featured: true
     }
 ];
