@@ -335,5 +335,11 @@ export default [
 		extensionId: 'regex',
 		featured: true,
 		collaborator: 'VegeSushi'
+	},
+	{
+		name: 'Cookies',
+		extensionId: 'cookies',
+		featured: true,
+		collaborator: 'VegeSushi'
 	}
 ];
