@@ -321,11 +321,19 @@ export default [
     {
         name: 'HTTP',
         extensionId: 'http',
-        featured: true
+        featured: true,
+		collaborator: 'VegeSushi'
     },
     {
         name: 'JSON',
         extensionId: 'json',
-        featured: true
-    }
+        featured: true,
+		collaborator: 'VegeSushi'
+    },
+	{
+		name: 'Regex',
+		extensionId: 'regex',
+		featured: true,
+		collaborator: 'VegeSushi'
+	}
 ];
