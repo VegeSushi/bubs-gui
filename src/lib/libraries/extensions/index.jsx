@@ -46,6 +46,14 @@ import gdxforInsetIconURL from './gdxfor/gdxfor-small.svg';
 import gdxforConnectionIconURL from './gdxfor/gdxfor-illustration.svg';
 import gdxforConnectionSmallIconURL from './gdxfor/gdxfor-small.svg';
 
+import httpIconURL from './http/http.png';
+
+import jsonIconURL from './json/json.png';
+
+import regexIconURL from './regex/regex.png';
+
+import cookiesIconURL from './cookies/cookies.png';
+
 export default [
     {
         name: (
@@ -322,24 +330,29 @@ export default [
         name: 'HTTP',
         extensionId: 'http',
         featured: true,
-		collaborator: 'VegeSushi'
+		collaborator: 'VegeSushi',
+        internetConnectionRequired: true,
+		iconURL: httpIconURL
     },
     {
         name: 'JSON',
         extensionId: 'json',
         featured: true,
-		collaborator: 'VegeSushi'
+		collaborator: 'VegeSushi',
+		iconURL: jsonIconURL
     },
 	{
 		name: 'Regex',
 		extensionId: 'regex',
 		featured: true,
-		collaborator: 'VegeSushi'
+		collaborator: 'VegeSushi',
+		iconURL: regexIconURL
 	},
 	{
 		name: 'Cookies',
 		extensionId: 'cookies',
 		featured: true,
-		collaborator: 'VegeSushi'
+		collaborator: 'VegeSushi',
+		iconURL: cookiesIconURL
 	}
 ];
