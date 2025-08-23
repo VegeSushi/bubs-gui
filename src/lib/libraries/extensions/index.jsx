@@ -54,6 +54,8 @@ import regexIconURL from './regex/regex.png';
 
 import cookiesIconURL from './cookies/cookies.png';
 
+import controllerIconURL from './controller/controller.png';
+
 export default [
     {
         name: (
@@ -354,5 +356,12 @@ export default [
 		featured: true,
 		collaborator: 'VegeSushi',
 		iconURL: cookiesIconURL
+	},
+	{
+		name: 'Controller',
+		extensionId: 'controller',
+		featured: true,
+		collaborator: 'VegeSushi',
+		iconURL: controllerIconURL
 	}
 ];
