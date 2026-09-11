@@ -56,6 +56,10 @@ import cookiesIconURL from './cookies/cookies.png';
 
 import controllerIconURL from './controller/controller.png';
 
+import clipboardIconURL from './clipboard/clipboard.png';
+
+import notificationsIconURL from './notifications/notifications.png';
+
 export default [
     {
         name: (
@@ -363,5 +367,19 @@ export default [
 		featured: true,
 		collaborator: 'VegeSushi',
 		iconURL: controllerIconURL
+	},
+	{
+		name: 'Clipboard',
+		extensionId: 'clipboard',
+		featured: true,
+		collaborator: 'VegeSushi',
+		iconURL: clipboardIconURL
+	},
+	{
+		name: 'Notifications',
+		extensionId: 'notifications',
+		featured: true,
+		collaborator: 'VegeSushi',
+		iconURL: notificationsIconURL
 	}
 ];
