@@ -60,6 +60,8 @@ import clipboardIconURL from './clipboard/clipboard.png';
 
 import notificationsIconURL from './notifications/notifications.png';
 
+import websocketsIconURL from './websockets/websockets.png';
+
 export default [
     {
         name: (
@@ -381,5 +383,12 @@ export default [
 		featured: true,
 		collaborator: 'VegeSushi',
 		iconURL: notificationsIconURL
+	},
+	{
+		name: 'Websockets',
+		extensionId: 'websockets',
+		featured: true,
+		collaborator: 'VegeSushi',
+		iconURL: websocketsIconURL
 	}
 ];
