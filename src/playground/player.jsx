@@ -12,19 +12,14 @@ import AppStateHOC from '../lib/app-state-hoc.jsx';
 
 import {setPlayer} from '../reducers/mode';
 
-if (process.env.NODE_ENV === 'production' && typeof window === 'object') {
-    // Warn before navigating away
-    window.onbeforeunload = () => true;
-}
-
 import styles from './player.css';
 
-const Player = ({isPlayerOnly, onSeeInside, projectId}) => (
+const Player = ({isPlayerOnly, projectId}) => (
     <Box className={classNames(isPlayerOnly ? styles.stageOnly : styles.editor)}>
-        {isPlayerOnly && <button onClick={onSeeInside}>{'See inside'}</button>}
+        {/* "See inside" button removed for iframe embedding */}
         <GUI
-            canEditTitle
-            enableCommunity
+            canEditTitle={false}
+            enableCommunity={false}
             isPlayerOnly={isPlayerOnly}
             projectId={projectId}
         />
