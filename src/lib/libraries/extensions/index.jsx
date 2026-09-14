@@ -62,6 +62,12 @@ import notificationsIconURL from './notifications/notifications.png';
 
 import websocketsIconURL from './websockets/websockets.png';
 
+import htmlIconURL from './html/html.png';
+
+import hashingIconURL from './hashing/hashing.png';
+
+import metadataIconURL from './metadata/metadata.png';
+
 export default [
     {
         name: (
@@ -390,5 +396,26 @@ export default [
 		featured: true,
 		collaborator: 'VegeSushi',
 		iconURL: websocketsIconURL
+	},
+	{
+		name: 'HTML',
+		extensionId: 'html',
+		featured: true,
+		collaborator: 'VegeSushi',
+		iconURL: htmlIconURL
+	},
+	{
+		name: 'Hashing',
+		extensionId: 'hashing',
+		featured: true,
+		collaborator: 'VegeSushi',
+		iconURL: hashingIconURL
+	},
+	{
+		name: 'Metadata',
+		extensionId: 'metadata',
+		featured: true,
+		collaborator: 'VegeSushi',
+		iconURL: metadataIconURL
 	}
 ];
